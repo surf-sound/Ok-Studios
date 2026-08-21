@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#efe6d8"/>
+
+  <!-- ornate but dated header -->
+  <rect width="800" height="110" fill="#5a2a1e"/>
+  <text x="400" y="52" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#e8c98a" text-anchor="middle">The Copper Fork</text>
+  <text x="400" y="76" font-family="Georgia, serif" font-size="12" fill="#c9a86a" text-anchor="middle" font-style="italic">Fine Dining Restaurant &amp; Bar</text>
+  <text x="400" y="96" font-family="Arial" font-size="10" fill="#d8c39a" text-anchor="middle">Est. 2003 - "A Taste of Tradition"</text>
+
+  <!-- flash-era nav -->
+  <rect x="0" y="110" width="800" height="30" fill="#3d1a12"/>
+  <text x="60" y="130" font-family="Arial" font-size="12" fill="#e8c98a">HOME</text>
+  <text x="140" y="130" font-family="Arial" font-size="12" fill="#e8c98a">OUR MENU</text>
+  <text x="240" y="130" font-family="Arial" font-size="12" fill="#e8c98a">HOURS &amp; LOCATION</text>
+  <text x="420" y="130" font-family="Arial" font-size="12" fill="#e8c98a">PRIVATE EVENTS</text>
+  <text x="580" y="130" font-family="Arial" font-size="12" fill="#e8c98a">CONTACT</text>
+
+  <!-- scanned menu PDF look -->
+  <rect x="0" y="140" width="800" height="20" fill="#c9a86a"/>
+  <text x="400" y="154" font-family="Arial" font-size="11" fill="#3d1a12" text-anchor="middle" font-weight="700">CLICK HERE TO DOWNLOAD OUR MENU (PDF, 2.4MB)</text>
+
+  <rect x="240" y="176" width="320" height="400" fill="#faf6ec" stroke="#999" stroke-width="1"/>
+  <text x="400" y="200" font-family="Times New Roman, serif" font-size="10" fill="#999" text-anchor="middle">[ scanned document ]</text>
+  <text x="400" y="230" font-family="Times New Roman, serif" font-size="16" fill="#333" text-anchor="middle" font-weight="700">D I N N E R  M E N U</text>
+  <line x1="270" y1="248" x2="530" y2="248" stroke="#ccc"/>
+  <text x="270" y="268" font-family="Times New Roman, serif" font-size="10" fill="#444">Appetizers.....................................................</text>
+  <text x="270" y="286" font-family="Times New Roman, serif" font-size="10" fill="#444">Soup &amp; Salad..................................................</text>
+  <text x="270" y="304" font-family="Times New Roman, serif" font-size="10" fill="#444">Entrees..........................................................</text>
+  <text x="270" y="322" font-family="Times New Roman, serif" font-size="10" fill="#444">Pasta.............................................................</text>
+  <text x="270" y="340" font-family="Times New Roman, serif" font-size="10" fill="#444">Steaks &amp; Chops..............................................</text>
+  <text x="270" y="358" font-family="Times New Roman, serif" font-size="10" fill="#444">Seafood.........................................................</text>
+  <text x="270" y="376" font-family="Times New Roman, serif" font-size="10" fill="#444">Desserts.........................................................</text>
+  <text x="400" y="420" font-family="Times New Roman, serif" font-size="9" fill="#999" text-anchor="middle">(text too small to read on phone)</text>
+  <text x="400" y="450" font-family="Arial" font-size="9" fill="#bbb" text-anchor="middle">page 1 of 3</text>
+
+  <!-- inconsistent hours in sidebar -->
+  <rect x="24" y="176" width="190" height="140" fill="#e3d4b8"/>
+  <text x="34" y="198" font-family="Arial" font-size="11" fill="#3d1a12" font-weight="700">Hours*</text>
+  <text x="34" y="216" font-family="Arial" font-size="10" fill="#444">Tue-Sun 5pm-10pm</text>
+  <text x="34" y="232" font-family="Arial" font-size="9" fill="#777" font-style="italic">*see footer for updated hours</text>
+  <text x="34" y="256" font-family="Arial" font-size="10" fill="#444">Closed Mondays</text>
+  <text x="34" y="280" font-family="Arial" font-size="9" fill="#777">(hours change seasonally,</text>
+  <text x="34" y="294" font-family="Arial" font-size="9" fill="#777">please call to confirm)</text>
+
+  <rect x="24" y="330" width="190" height="110" fill="#e3d4b8"/>
+  <text x="34" y="352" font-family="Arial" font-size="11" fill="#3d1a12" font-weight="700">Find Us</text>
+  <text x="34" y="372" font-family="Arial" font-size="10" fill="#444">1204 Main Street</text>
+  <text x="34" y="388" font-family="Arial" font-size="10" fill="#444">(no map available)</text>
+  <text x="34" y="410" font-family="Arial" font-size="9" fill="#777">Reservations: call only</text>
+
+  <rect x="0" y="576" width="800" height="24" fill="#3d1a12"/>
+  <text x="400" y="592" font-family="Arial" font-size="10" fill="#c9a86a" text-anchor="middle">The Copper Fork &#183; Hours: Tue-Sat 5-9:30, Sun 4-9 (footer version)</text>
+</svg>

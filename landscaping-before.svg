@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="skyGrad1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ea9c9"/>
+      <stop offset="100%" stop-color="#a9c9a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#e8e4d5"/>
+  <!-- busy header bg image -->
+  <rect width="800" height="120" fill="url(#skyGrad1)"/>
+  <rect x="0" y="60" width="800" height="20" fill="#5c8a4a" opacity="0.6"/>
+  <text x="24" y="45" font-family="Georgia, serif" font-size="30" font-weight="700" fill="#1a3a1a" stroke="#ffffff" stroke-width="0.5">Smith's Landscaping &amp; Lawn Care</text>
+  <text x="24" y="72" font-family="Arial" font-size="13" fill="#0d2b0d" font-style="italic">"Serving the area since 1994" - Family Owned</text>
+
+  <!-- nav bar, cluttered -->
+  <rect x="0" y="120" width="800" height="34" fill="#2f5233"/>
+  <text x="16" y="142" font-family="Arial" font-size="13" fill="#ffe28a">HOME</text>
+  <text x="80" y="142" font-family="Arial" font-size="13" fill="#ffe28a">ABOUT US</text>
+  <text x="170" y="142" font-family="Arial" font-size="13" fill="#ffe28a">OUR SERVICES</text>
+  <text x="290" y="142" font-family="Arial" font-size="13" fill="#ffe28a">GALLERY</text>
+  <text x="370" y="142" font-family="Arial" font-size="13" fill="#ffe28a">TESTIMONIALS</text>
+  <text x="500" y="142" font-family="Arial" font-size="13" fill="#ffe28a">CONTACT US</text>
+  <text x="620" y="142" font-family="Arial" font-size="13" fill="#ffffff" font-weight="700">CALL NOW: 555-0142</text>
+
+  <!-- marquee-ish banner -->
+  <rect x="0" y="154" width="800" height="26" fill="#ffcc00"/>
+  <text x="400" y="172" font-family="Arial Black, Arial" font-size="14" font-weight="900" fill="#7a0000" text-anchor="middle">*** SPRING SPECIAL - 10% OFF ALL SERVICES - CALL TODAY! ***</text>
+
+  <!-- cramped body text block -->
+  <rect x="0" y="180" width="800" height="420" fill="#f2efe2"/>
+  <text x="24" y="215" font-family="Times New Roman, serif" font-size="15" fill="#222" font-weight="700">Welcome to Smith's Landscaping!</text>
+  <text x="24" y="238" font-family="Times New Roman, serif" font-size="12" fill="#333">We provide lawn mowing, edging, trimming, mulching, tree removal, sprinkler repair, leaf</text>
+  <text x="24" y="254" font-family="Times New Roman, serif" font-size="12" fill="#333">removal, fertilization, weed control, landscape design, retaining walls, sod installation,</text>
+  <text x="24" y="270" font-family="Times New Roman, serif" font-size="12" fill="#333">seasonal cleanup, snow removal and much more! We have been serving homeowners and</text>
+  <text x="24" y="286" font-family="Times New Roman, serif" font-size="12" fill="#333">businesses in the area for over 30 years with quality work at a fair price. Call or email us</text>
+  <text x="24" y="302" font-family="Times New Roman, serif" font-size="12" fill="#333">today for a free estimate! We are licensed and insured. No job too big or too small.</text>
+
+  <!-- clip art style tree icons -->
+  <circle cx="700" cy="230" r="34" fill="#5c8a4a"/>
+  <rect x="694" y="258" width="12" height="26" fill="#7a5230"/>
+  <circle cx="650" cy="245" r="24" fill="#6f9b57"/>
+  <rect x="646" y="264" width="8" height="18" fill="#7a5230"/>
+
+  <!-- low-res photo placeholders -->
+  <rect x="24" y="330" width="180" height="120" fill="#9fae8a"/>
+  <rect x="214" y="330" width="180" height="120" fill="#8a9e78"/>
+  <rect x="404" y="330" width="180" height="120" fill="#a3b28d"/>
+  <text x="114" y="395" font-family="Arial" font-size="10" fill="#3a3a3a" text-anchor="middle">photo1.jpg</text>
+  <text x="304" y="395" font-family="Arial" font-size="10" fill="#3a3a3a" text-anchor="middle">photo2.jpg</text>
+  <text x="494" y="395" font-family="Arial" font-size="10" fill="#3a3a3a" text-anchor="middle">photo3.jpg</text>
+
+  <!-- tiny contact info buried -->
+  <rect x="24" y="470" width="560" height="90" fill="#e3e0d0" stroke="#999" stroke-width="1"/>
+  <text x="34" y="490" font-family="Times New Roman, serif" font-size="11" fill="#333" font-weight="700">Contact Information:</text>
+  <text x="34" y="508" font-family="Times New Roman, serif" font-size="11" fill="#333">Phone: (555) 555-0142 (leave a message)</text>
+  <text x="34" y="524" font-family="Times New Roman, serif" font-size="11" fill="#333">Email: smithslandscaping1994@some-provider.net</text>
+  <text x="34" y="540" font-family="Times New Roman, serif" font-size="11" fill="#333">Hours: Mon-Fri 7am-5pm, Sat by appointment</text>
+
+  <rect x="604" y="470" width="176" height="90" fill="#d8d3bf"/>
+  <text x="692" y="510" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">visitor counter:</text>
+  <text x="692" y="528" font-family="Courier New" font-size="16" fill="#c00" text-anchor="middle" font-weight="700">004821</text>
+
+  <rect x="0" y="576" width="800" height="24" fill="#1a2e1a"/>
+  <text x="400" y="592" font-family="Arial" font-size="10" fill="#8a9e78" text-anchor="middle">Copyright 2009 Smith's Landscaping. Best viewed in Internet Explorer.</text>
+</svg>

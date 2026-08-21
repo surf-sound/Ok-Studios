@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="heroGradR" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3d1f14"/>
+      <stop offset="100%" stop-color="#1f0f09"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#FBF7F1"/>
+
+  <!-- nav -->
+  <rect x="0" y="0" width="800" height="56" fill="#ffffff"/>
+  <rect x="0" y="55" width="800" height="1" fill="#e8ddd0"/>
+  <circle cx="46" cy="28" r="14" fill="#a85c32"/>
+  <text x="46" y="32" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#fbf0e3" text-anchor="middle">C</text>
+  <text x="70" y="32" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#3d1f14">The Copper Fork</text>
+  <text x="440" y="32" font-family="Arial, sans-serif" font-size="12" fill="#555">Menu</text>
+  <text x="500" y="32" font-family="Arial, sans-serif" font-size="12" fill="#555">Hours</text>
+  <text x="565" y="32" font-family="Arial, sans-serif" font-size="12" fill="#555">Location</text>
+  <text x="645" y="32" font-family="Arial, sans-serif" font-size="12" fill="#555">Contact</text>
+  <rect x="700" y="15" width="76" height="26" rx="4" fill="#a85c32"/>
+  <text x="738" y="32" font-family="Arial, sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">Reserve</text>
+
+  <!-- warm hero -->
+  <rect x="0" y="56" width="800" height="210" fill="url(#heroGradR)"/>
+  <circle cx="680" cy="70" r="140" fill="#5a3120" opacity="0.4"/>
+  <text x="48" y="126" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2" fill="#d4a574">LOCAL, SEASONAL, SIMPLE</text>
+  <text x="48" y="168" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#ffffff">Good food, easy</text>
+  <text x="48" y="203" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#ffffff">to find online.</text>
+  <text x="48" y="230" font-family="Arial, sans-serif" font-size="13" fill="#e0cfc4">Dinner nightly · Downtown · Reservations welcome.</text>
+  <rect x="48" y="242" width="150" height="30" rx="4" fill="#d4a574"/>
+  <text x="123" y="262" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#3d1f14" text-anchor="middle">Reserve a Table</text>
+
+  <!-- readable menu section -->
+  <text x="48" y="308" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#8a7a6e">THE MENU</text>
+  <text x="48" y="336" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#3d1f14">A few of our favorites.</text>
+
+  <rect x="48" y="356" width="330" height="140" rx="6" fill="#ffffff" stroke="#e8ddd0"/>
+  <text x="68" y="382" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#3d1f14">Starters</text>
+  <text x="68" y="404" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5e">Roasted beet salad ····· $12</text>
+  <text x="68" y="422" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5e">Copper Fork flatbread ··· $14</text>
+  <text x="68" y="440" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5e">Soup of the day ········· $9</text>
+
+  <rect x="398" y="356" width="330" height="140" rx="6" fill="#ffffff" stroke="#e8ddd0"/>
+  <text x="418" y="382" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#3d1f14">Entrees</text>
+  <text x="418" y="404" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5e">Herb-crusted salmon ····· $27</text>
+  <text x="418" y="422" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5e">Braised short rib ········ $31</text>
+  <text x="418" y="440" font-family="Arial, sans-serif" font-size="10" fill="#7a6a5e">Wild mushroom risotto ··· $22</text>
+
+  <!-- hours + location band -->
+  <rect x="0" y="520" width="800" height="80" fill="#3d1f14"/>
+  <text x="48" y="552" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#ffffff">Open Tue–Sun, 5–10pm</text>
+  <text x="48" y="574" font-family="Arial, sans-serif" font-size="11" fill="#c9b3a0">1204 Main Street · Downtown · Closed Mondays</text>
+  <rect x="640" y="544" width="120" height="30" rx="4" fill="#d4a574"/>
+  <text x="700" y="564" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#3d1f14" text-anchor="middle">Get Directions</text>
+</svg>
