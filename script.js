@@ -381,13 +381,13 @@
      ============================================================ */
   const caseStudies = {
     landscaping: {
-      eyebrow: '01 — Landscaping · Redesign Concept',
+      eyebrow: '01: Landscaping · Redesign Concept',
       title: "Smith's Landscaping",
       image: 'landscaping-after.svg',
       problem: [
         'The original site used small, hard-to-read text over a busy background image.',
         'Services were listed as one dense paragraph with no clear structure.',
-        'There was no visible way to request a quote — a phone number was buried in the footer.',
+        'There was no visible way to request a quote. A phone number was buried in the footer.',
         'The layout did not adapt well to mobile screens, where most visitors were likely browsing from.'
       ],
       redesign: [
@@ -404,13 +404,13 @@
       ]
     },
     auto: {
-      eyebrow: '02 — Auto Detailing · Redesign Concept',
+      eyebrow: '02: Auto Detailing · Redesign Concept',
       title: 'Redline Auto Detail',
       image: 'auto-after.svg',
       problem: [
         'The old site relied on small, low-quality photos that undersold the quality of the work.',
         'Pricing was not listed anywhere, leaving visitors unsure what to expect.',
-        'There was no online booking option — customers had to call during business hours.',
+        'There was no online booking option. Customers had to call during business hours.',
         'The overall design looked unfinished, which can undermine trust for a detail-focused business.'
       ],
       redesign: [
@@ -427,7 +427,7 @@
       ]
     },
     restaurant: {
-      eyebrow: '03 — Restaurant · Redesign Concept',
+      eyebrow: '03: Restaurant · Redesign Concept',
       title: 'The Copper Fork',
       image: 'restaurant-after.svg',
       problem: [
@@ -554,7 +554,7 @@
 
       // Placeholder for a real submission, e.g.:
       // fetch('/api/contact', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(data) })
-      console.log('OK Studios — Free Website Review request:', data);
+      console.log('OK Studios Free Website Review request:', data);
 
       status.textContent = `Thanks, ${data.name.split(' ')[0]}! We got your request and will be in touch soon.`;
       status.classList.add('is-success');
