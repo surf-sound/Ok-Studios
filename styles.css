@@ -334,7 +334,7 @@ textarea:focus-visible,
 .service-item:last-child { border-right: none; }
 .service-item:hover { background: var(--bg); padding-left: 16px; }
 .marker-icon {
-  width: 40px; height: 40px; border-radius: 10px; background: rgba(196, 255, 77, 0.22);
+  width: 40px; height: 40px; border-radius: 10px; background: rgba(196, 255, 77, 0.35);
   display: flex; align-items: center; justify-content: center;
   margin-bottom: 22px; color: var(--black);
 }
@@ -348,12 +348,12 @@ textarea:focus-visible,
 .service-desc { color: var(--gray); font-size: 15px; line-height: 1.65; max-width: 34ch; }
 
 /* ================= WHY IT WORKS (pills, merged into Services) ================= */
-.why-pills { margin-top: 56px; padding-top: 44px; border-top: 1px solid var(--border-soft-2); }
+.why-pills { margin-top: 56px; padding-top: 44px; border-top: 1px solid var(--border-soft-2); text-align: center; }
 .pills-label {
   font-family: var(--font-body); font-weight: 600; font-size: 12.5px; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--gray); margin-bottom: 20px;
 }
-.tag-strip { display: flex; flex-wrap: wrap; gap: 14px; padding-bottom: 90px; }
+.tag-strip { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; padding-bottom: 90px; }
 
 .tag-pill {
   position: relative;
