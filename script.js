@@ -338,6 +338,45 @@
   }
 
   /* ============================================================
+     WHY IT WORKS PILLS (tap-to-toggle for touch devices;
+     hover already works via CSS for mouse users)
+     ============================================================ */
+  function initWhyPills() {
+    const pills = document.querySelectorAll('.tag-pill');
+    if (!pills.length) return;
+
+    pills.forEach((pill) => {
+      pill.addEventListener('click', (e) => {
+        const isOpen = pill.classList.contains('is-open');
+        pills.forEach((p) => {
+          p.classList.remove('is-open');
+          p.setAttribute('aria-expanded', 'false');
+        });
+        if (!isOpen) {
+          pill.classList.add('is-open');
+          pill.setAttribute('aria-expanded', 'true');
+        }
+        e.stopPropagation();
+      });
+
+      // Keyboard support (Enter/Space) since pills are focusable via tabindex
+      pill.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          pill.click();
+        }
+      });
+    });
+
+    document.addEventListener('click', () => {
+      pills.forEach((p) => {
+        p.classList.remove('is-open');
+        p.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
+  /* ============================================================
      CASE STUDY MODAL
      ============================================================ */
   const caseStudies = {
@@ -533,6 +572,7 @@
     initNavElevation();
     initSliders();
     initProcessTimeline();
+    initWhyPills();
     initCaseStudyModal();
     initContactForm();
   });
