@@ -216,6 +216,7 @@ textarea:focus-visible,
   font-size: clamp(40px, 7.4vw, 84px); line-height: 1.04; letter-spacing: -0.03em; color: var(--black);
 }
 .hl-soft { color: var(--gray); }
+.text-lime { color: var(--lime); }
 .hero-sub { margin: 28px auto 0; max-width: 56ch; font-size: clamp(17px, 1.9vw, 19px); color: var(--gray); line-height: 1.65; }
 .hero-ctas { margin-top: 40px; display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap; }
 
@@ -348,7 +349,7 @@ textarea:focus-visible,
 .service-desc { color: var(--gray); font-size: 15px; line-height: 1.65; max-width: 34ch; }
 
 /* ================= WHY IT WORKS (pills, merged into Services) ================= */
-.why-pills { margin-top: 56px; padding-top: 44px; border-top: 1px solid var(--border-soft-2); text-align: center; }
+.why-pills { margin-top: 56px; padding-top: 44px; text-align: center; }
 .pills-label {
   font-family: var(--font-body); font-weight: 600; font-size: 12.5px; letter-spacing: 0.1em;
   text-transform: uppercase; color: var(--gray); margin-bottom: 20px;
