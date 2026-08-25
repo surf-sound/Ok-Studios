@@ -216,7 +216,20 @@ textarea:focus-visible,
   font-size: clamp(40px, 7.4vw, 84px); line-height: 1.04; letter-spacing: -0.03em; color: var(--black);
 }
 .hl-soft { color: var(--gray); }
-.text-lime { color: var(--lime); }
+.lime-underline {
+  position: relative;
+  color: var(--black);
+  display: inline-block;
+}
+.lime-underline::after {
+  content: '';
+  position: absolute;
+  left: 2px; right: 2px; bottom: 4px;
+  height: 0.16em;
+  background: var(--lime);
+  z-index: -1;
+  transform: translateY(0.1em);
+}
 .hero-sub { margin: 28px auto 0; max-width: 56ch; font-size: clamp(17px, 1.9vw, 19px); color: var(--gray); line-height: 1.65; }
 .hero-ctas { margin-top: 40px; display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap; }
 
